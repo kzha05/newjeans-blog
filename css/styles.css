@@ -87,22 +87,22 @@ figure{
     padding: 30px;
 }
 
-#ador{
+#debut{
     align-items: center;
 }
 
-.ador-text{
+.debut-text{
     display: flex;
     flex-direction: column;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
 
-.ador-text > h2{
+.debut-text > h2{
     font-size: 65px;
 }
 
-.ador-text > h3{
+.debut-text > h3{
     padding-top: 30px;
     padding-left: 80px;
     padding-right: 80px;
