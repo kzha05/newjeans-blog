@@ -3,10 +3,26 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 body{
     width: 100vw;
     background-image: linear-gradient(rgb(210, 139, 192), rgb(144, 176, 206), rgb(144, 176, 206),rgb(161, 144, 206));
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(168, 121, 190);
+}
+
+html{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 
 header{
@@ -71,7 +87,7 @@ figure{
     padding: 30px;
 }
 
-.ador{
+#ador{
     align-items: center;
 }
 
@@ -109,7 +125,7 @@ figure{
     font-size: 150%;
 }
 
-.discografie{
+#discografie{
     width: 100vw;
     display: flex;
     flex-direction: column;
